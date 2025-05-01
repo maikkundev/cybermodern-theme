@@ -3,6 +3,11 @@
   "displayName": "CyberModern",
   "description": "A mix of VSCode's Dark Modern and Cyberpunk for JetBrain IDEs Theme.",
   "publisher": "MaikkunDev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maikkundev/cybermodern-theme"
+  },
   "galleryBanner": {
     "color": "#000000",
     "theme": "dark"
