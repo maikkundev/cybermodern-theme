@@ -1,0 +1,21 @@
+{
+  "name": "cybermodern-theme",
+  "displayName": "CyberModern",
+  "description": "A mix of VSCode's Dark Modern and Cyberpunk for JetBrain IDEs Theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CyberModern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CyberModern-color-theme.json"
+      }
+    ]
+  }
+}
