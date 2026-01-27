@@ -6,7 +6,7 @@ This theme only changes the text editor's theme, not the UI.
 
 ## Screenshot
 
-![Screenshot of CyberModern Theme](assets/imgs/Screenshot.png)
+![Screenshot of CyberModern Theme](assets/imgs/Screenshot.webp)
 
 ## Color inspiration
 
