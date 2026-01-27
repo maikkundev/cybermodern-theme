@@ -169,7 +169,6 @@
         "keyword.control",
         "constant.other.color",
         "punctuation",
-        "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -386,6 +385,63 @@
       "scope": ["tag.decorator.js entity.name.tag.js", "tag.decorator.js punctuation.definition.tag.js"],
       "settings": {
         "fontStyle": "italic",
+        "foreground": "#00f0ff"
+      }
+    },
+    {
+      "name": "JSX/TSX Tags",
+      "scope": [
+        "entity.name.tag.js",
+        "entity.name.tag.tsx",
+        "entity.name.tag.jsx",
+        "support.class.component.js",
+        "support.class.component.tsx",
+        "support.class.component.jsx"
+      ],
+      "settings": {
+        "foreground": "#f3505c"
+      }
+    },
+    {
+      "name": "JSX/TSX Tag Brackets",
+      "scope": [
+        "punctuation.definition.tag.begin.js",
+        "punctuation.definition.tag.end.js",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        "punctuation.definition.tag.begin.jsx",
+        "punctuation.definition.tag.end.jsx"
+      ],
+      "settings": {
+        "foreground": "#777777"
+      }
+    },
+    {
+      "name": "JSX/TSX Attributes",
+      "scope": ["entity.other.attribute-name.js", "entity.other.attribute-name.tsx", "entity.other.attribute-name.jsx"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffc07a"
+      }
+    },
+    {
+      "name": "JSX/TSX Text",
+      "scope": ["meta.jsx.children", "meta.jsx.children.js", "meta.jsx.children.tsx"],
+      "settings": {
+        "foreground": "#cacaca"
+      }
+    },
+    {
+      "name": "JSX/TSX Expression Braces",
+      "scope": [
+        "punctuation.section.embedded.begin.js",
+        "punctuation.section.embedded.end.js",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx",
+        "punctuation.section.embedded.begin.jsx",
+        "punctuation.section.embedded.end.jsx"
+      ],
+      "settings": {
         "foreground": "#00f0ff"
       }
     },
